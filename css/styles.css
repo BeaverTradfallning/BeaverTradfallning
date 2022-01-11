@@ -1,0 +1,644 @@
+body {
+  text-align: center;
+  background-color: #f2f5f1;
+  font-family: "Montserrat";
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+h4 {
+  margin-bottom: -2.5rem;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #8f8f8f;
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+
+hr {
+  border: 1px solid #144d07;
+  opacity: 0.4;
+  max-width: 50%;
+  margin: auto;
+}
+
+a {
+  color: #144d07;
+  font-size: 1.5rem;
+}
+
+.h2-tag {
+  top: 1.875rem;
+  position: relative;
+}
+
+/*************** CONTAINERS***************/
+#tjänster .container-fluid {
+  text-align: right;
+}
+
+#om .container-fluid {
+  padding: 0 25%;
+  margin-top: 1%;
+  margin-bottom: 4%;
+}
+
+#kontakt .container-fluid {
+  padding: 0 25% 2%;
+  margin-top: 1%;
+  margin-bottom: 3.5%;
+  text-align: left;
+}
+
+#kostnad .container-fluid {
+  padding: 0% 25%;
+  margin-top: 1%;
+  margin-bottom: 4.5%;
+  text-align: left;
+}
+
+#kostnad p {
+  text-align: left;
+  width: 100%;
+}
+
+.kontakta-mig {
+  padding: 0 25% 3%;
+  text-align: left;
+}
+
+.kontakta-mig h2 {
+  margin: 0;
+}
+
+.btn {
+  background: #144d07;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f2f5f1;
+  text-decoration: none;
+  color: #144d07;
+}
+
+.contact-text {
+  padding: 1% 0;
+}
+
+.top-container {
+  padding: 0 25%;
+}
+
+.container-fluid {
+  padding: 3% 25%;
+  text-align: left;
+}
+
+.container-fluid .trädfällning {
+  text-align: left;
+  padding: 0 0 10%;
+}
+
+.container-fluid .bortforsling {
+  text-align: left;
+  padding: 0 0 7%;
+}
+
+.container-fluid .markarbete {
+  text-align: left;
+  padding: 0 0 10%;
+}
+
+.container-fluid .utbildningar {
+  text-align: left;
+  padding: 0 0 3%;
+}
+
+.h1-tjanster {
+  color: Black;
+  padding: 5% 25% 0;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/*************** LINKS ***************/
+.a-tjanster:link {
+  text-decoration: none;
+}
+
+.a-tjanster:visited {
+  text-decoration: none;
+}
+
+.a-tjanster:hover {
+  color: #144d07;
+  text-decoration: underline;
+}
+
+.a-sakerskog {
+  color: #144d07;
+}
+
+.a-sakerskog {
+  text-decoration: underline;
+}
+
+.a-nav-kontakt-form {
+  color: #144d07;
+}
+
+.a-nav-kontakt-form {
+  text-decoration: none;
+}
+
+/*************** NAVBAR ***************/
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+/*************** ID's ***************/
+#title, #varatjanster, #forsling, #markarbete, #tradfallning, #utbildning, #galleri {
+  background-color: #144d07;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+#header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 5%;
+  background-color: #144d07;
+  color: rgb(249, 249, 248);
+}
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 11%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  background-color: #144d07;
+  color: rgb(249, 249, 248);         /* Footer height */
+}
+
+
+
+#bildspel {
+  text-align: center;
+  padding: 2% 25%;
+}
+
+#kontakt-form {
+  padding: 2.5% 25% 2%;
+  text-align: left;
+}
+
+#kontakt-form p {
+  padding-bottom: 3%;
+}
+
+.submit-btn {
+  margin-top: 5px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 2% 25%;
+}
+
+/*************** OM ***************/
+.om-image {
+  float: right;
+  width: 40%;
+}
+
+/*************** TRÄDFÄLLNING ***************/
+.fällning-image {
+  width: 40%;
+  position: relative;
+  top: -80px;
+  float: right;
+}
+
+/*************** BORTFORSLING ***************/
+.bortforsling-image {
+  width: 40%;
+  position: relative;
+  top: -50px;
+  float: right;
+}
+
+/*************** MARKARBETE ***************/
+.markarbete-image {
+  width: 40%;
+  position: relative;
+  top: -50px;
+  float: right;
+}
+
+/*************** UTBILDNING ***************/
+.utb-image {
+  width: 40%;
+  float: right;
+  position: relative;
+}
+
+/*************** KONTAKT ***************/
+.kontakt-image {
+  float: right;
+  position: relative;
+  top: -40px;
+  width: 40%;
+}
+
+/*************** TJÄNSTER ***************/
+.tjanst-image {
+  margin: auto;
+  width: 50%;
+}
+
+/*************** FOOTER ***************/
+.footer-icon {
+  color: rgb(249, 249, 248);
+  padding: 1%;
+}
+
+.footer-icon:hover {
+  color: gold;
+}
+
+.copyright-text {
+  padding-top: 2%
+}
+
+#footer p {
+  color: rgb(249, 249, 248);
+}
+
+.info-text {
+  padding-top: 5%;
+  width: 50%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 1%;
+}
+
+.telenr {
+  clear: left;
+}
+
+/*************** BILDSPEL ***************/
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.carousel-control-next {
+  padding-left: 10%;
+}
+
+.carousel-control-prev {
+  padding-right: 10%;
+}
+
+.logo {
+  width: 7rem;
+  display: block;
+}
+
+.testimonial-image {
+  width: 80%;
+}
+
+/*************** MEDIA QUERIES ***************/
+@media (min-width:1940px) {
+  #om .container-fluid {
+    padding: 3% 25% 8%;
+    margin-bottom: 4%;
+  }
+
+  #kontakt .container-fluid {
+    padding: 3% 25% 8%;
+    margin-bottom: 3.5%;
+  }
+
+  #kostnad .container-fluid {
+    padding: 3% 25% 0;
+    margin-bottom: 4.5%;
+  }
+  #footer{
+    position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 10%;
+      padding-top: 1%;
+      padding-bottom: 2%;
+      background-color: #144d07;
+      color: rgb(249, 249, 248);
+}
+  .om-image {
+    position: relative;
+    bottom: 40px;
+  }
+
+  .kontakt-image {
+    position: relative;
+    bottom: 80px;
+  }
+
+  .utb-image {
+    bottom: 6.25rem;
+  }
+
+  .markarbete-image {
+    bottom: 6.25rem;
+    top: auto;
+  }
+
+  .bortforsling-image {
+    bottom: 6.25rem;
+    top: auto;
+  }
+
+  .fällning-image {
+    bottom: 9.25rem;
+    top: auto;
+  }
+  .footer-tjanster #footer{
+    position: fixed;
+  }
+  .copyright-text{
+    padding-top: 1%;
+  }
+
+  .kontakta-mig {
+    padding: 3% 25% 1%;
+  }
+
+  #pricing p {
+    padding: 4% 0%;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-device-width: 812px) and (max-device-width: 1300px) and (-webkit-device-pixel-ratio: 2) {
+  .navbar-expand-lg {
+    flex-wrap: wrap;
+  }
+
+  #om .container-fluid {
+    padding: 6% 10%;
+}
+
+#kontakt .container-fluid {
+    padding: 2% 10% 6%;
+}
+
+#kostnad .container-fluid {
+    padding: 2% 10% 6%;
+}
+
+#pricing {
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.h1-tjanster {
+    padding: 5% 10% 0;
+}
+
+.top-container {
+    padding: 0 10%;
+}
+
+#bildspel {
+    padding: 2% 10%;
+}
+
+.kontakta-mig {
+    padding: 0 10% 3%;
+}
+}
+
+/*************** MOBILE ***************/
+@media only screen and (max-device-width: 812px) {
+  #tjänster .container-fluid {
+    text-align: right;
+  }
+
+  .h1-tjanster {
+    padding: 5% 2% 0;
+    font-size: 4rem;
+    text-align: center;
+}
+
+  .container-fluid .markarbete {
+    text-align: center;
+  }
+
+  .markarbete-image, .bortforsling-image, .fällning-image, .utb-image {
+    width: 60%;
+    top: 0;
+    float: none;
+  }
+
+  .container-fluid .utbildningar {
+    text-align: center;
+  }
+
+
+
+.container-fluid .bortforsling{
+  text-align: center;
+}
+
+
+
+.container-fluid .trädfällning {
+    text-align: center;
+}
+
+
+
+  .kontakta-mig {
+    padding: 6% 2% 15%;
+    text-align: center;
+  }
+
+  #om .container-fluid {
+    padding: 0 2%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
+
+  #kontakt .container-fluid {
+    padding: 0 2%;
+    margin-top: 1%;
+    margin-bottom: 3.5%;
+    text-align: left;
+  }
+
+  #kostnad .container-fluid {
+    padding: 0 2%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+    text-align: left;
+  }
+
+  #footer{
+    position: fixed;
+    height: 8.5rem;
+  }
+
+  #bildspel {
+    padding: 0% 10%;
+    margin-bottom: 50%;
+    margin-top: 40%;
+  }
+
+  #pricing {
+    text-align: center;
+    padding: 2% 2% 15%;
+  }
+
+  #pricing p {
+    font-size: 2rem;
+    padding: 4% 0%;
+  }
+
+  .top-container {
+    padding: 0% 2%;
+  }
+
+  .testimonial-image {
+    width: 100%;
+  }
+
+  .carousel-control-next {
+    right: -10%;
+  }
+
+  .carousel-control-prev {
+    left: -10%;
+  }
+
+  .container-fluid {
+    padding: 3% 2%;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+
+  .info-text {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.tjanst-image {
+    margin: auto;
+    width: 70%;
+}
+
+#pricing h2{
+  padding-top: 3%;
+}
+
+  .navbar-dark .navbar-toggler-icon {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  a {
+    font-size: 3rem;
+  }
+
+  .footer-icon {
+    font-size: 2rem;
+  }
+
+  .h1-tjanster {
+    padding: 5% 2% 0;
+    font-size: 4rem;
+  }
+
+  .om-image {
+    position: relative;
+  }
+
+  .kontakt-image {
+    float: right;
+    width: 40%;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .col-sm-10 {
+    height: auto;
+  }
+
+  .kontakta-mig h2 {
+    font-size: 3rem;
+  }
+
+  .contact-text {
+    font-size: 2rem;
+  }
+}
+}
